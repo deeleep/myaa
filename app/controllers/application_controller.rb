@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   # def index
   #   render html: "Goood Bye world!"
   # end
+
+  def hello
+    render html: "Hello World!"
+  end  
 end
